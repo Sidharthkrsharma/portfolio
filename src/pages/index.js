@@ -1,13 +1,13 @@
+import AnimatedText from '@/components/AnimatedText'
+import HireMe from '@/components/HireMe'
+import { LinkArrow } from '@/components/Icons'
 import Layout from '@/components/Layout'
+import TransitionEffect from '@/components/TransitionEffect'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/logobg.png"
-import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
-import { LinkArrow } from '@/components/Icons'
-import HireMe from '@/components/HireMe'
+import profilePic from "../../public/images/profile/logobg.png"
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
-import TransitionEffect from '@/components/TransitionEffect'
 
 
 export default function Home() {
@@ -35,7 +35,7 @@ interactive full-stack web applications and machine learning models. Eager to us
 problems in a professional environment.
             </p>
             <div className='flex items-center self-start mt-2 lg:self-center'>
-              <Link href="/resume1.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark  dark:bg-light dark:text-dark  hover:dark:bg-dark hover:dark:text-light  hover:dark:border-light md:p-2 md:px-2 md:text-base " download={true}>Resume  <LinkArrow className={"w-6 ml-1"} /></Link>
+              <Link href="/resume main.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark  dark:bg-light dark:text-dark  hover:dark:bg-dark hover:dark:text-light  hover:dark:border-light md:p-2 md:px-2 md:text-base " download={true}>Resume  <LinkArrow className={"w-6 ml-1"} /></Link>
               <Link href="mailto:siddharthkumarsharma31@gmail.com" target={"_blank"} className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base '>Contact</Link>
             </div>
           </div>

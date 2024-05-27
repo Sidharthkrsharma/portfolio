@@ -1,13 +1,18 @@
-import React from 'react'
-import Head from 'next/head'
-import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
-import Link from 'next/link'
-import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import { motion } from "framer-motion";
+import Layout from '@/components/Layout'
 import TransitionEffect from '@/components/TransitionEffect'
+import { motion } from "framer-motion"
+import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
+import project4 from "../../public/images/projects/png2jpg/brain.jpg"
+import project3 from "../../public/images/projects/png2jpg/flappy bird.jpg"
+import project6 from "../../public/images/projects/png2jpg/mcq.jpg"
+import project5 from "../../public/images/projects/png2jpg/mi.jpg"
+import project2 from "../../public/images/projects/png2jpg/netflix.jpg"
+import project1 from "../../public/images/projects/png2jpg/tomato.jpg"
+
 
 
 const FramerImage = motion(Image);
@@ -95,21 +100,21 @@ const projects = () => {
     <div className='col-span-12'>
     
     <FeaturedProject 
-    title="Ipl Win Pridict"
+    title="Tomato-leaf Classifications"
     img={project1}
-    summary=" Created web pages with help Streamlit library to build attractive user and used Pandas library"
+    summary="Used many NPM react packages and library for easily integrate with Deep learning model for Classification of 
+Diseases and MongoDB and Cloudinary for database and storing image and result used for building user interfaces website 
+where user upload  leaf image and help to predict the disease with help of CNN and Deep learning model"
     link="/"
-    github="https://github.com/Sidharthkrsharma/ML-project-Ipl-win-pridictor.git"
+    github="https://github.com/Sidharthkrsharma/Tomato-leaf-classification.git"
     type="Featured Project"
     />
     </div>
     <div className='col-span-6 sm:col-span-12'>
     <Project
     title="Netflix Clone"
-    img={project1}
-    summary="Used many NPM react packages and library for easily integrate with JavaScript library 
-used for building user interfaces, Implemented SASS for handy and easy methods to style modern web 
-applications"
+    img={project2}
+    summary="Used many NPM react packages and libraries to build attractive user interface"
     link="https://netflix-clone-two-lake-16.vercel.app/"
     github="https://github.com/Sidharthkrsharma/Netflix-Clone.git"
     type="Featured Project"
@@ -119,7 +124,7 @@ applications"
     <div className='col-span-6 sm:col-span-12'>
     <Project
     title="Flappy Bird Ai"
-    img={project1}
+    img={project3}
     summary="The results of training an AI using NEAT (NeuroEvolution of Augmenting Topologies) to play 
 Flappy Bird and Used many libraries like Pandas, Pygame etc.
 "
@@ -132,11 +137,12 @@ Flappy Bird and Used many libraries like Pandas, Pygame etc.
  
     <div className='col-span-12'>
     <FeaturedProject 
-    title="blog site"
-    img={project1}
-    summary="blog site "
-    link="https://blog-site-khaki.vercel.app/"
-    github="https://github.com/Sidharthkrsharma/blog-site.git"
+    title="Brain-Tumor Classification using CNN"
+    img={project4}
+    summary="Predict the Tumor via MRI and Created web pages with help Flask framework to build attractive user and used many library for Train and Test 
+the Model in 10 Epochs for Better Understanding."
+    link="/"
+    github="https://github.com/Sidharthkrsharma/BrainTumor_Classification_using-CNN.git"
     type="Featured Project"
     />
     </div>
@@ -144,7 +150,7 @@ Flappy Bird and Used many libraries like Pandas, Pygame etc.
     <div className='col-span-6 sm:col-span-12'>
       <Project
     title="MI store clone"
-    img={project1}
+    img={project5}
     summary="clone of mi store website"
     link="https://mi-store-clone-psi.vercel.app/"
     github="https://github.com/Sidharthkrsharma/mi-store-clone.git"
@@ -155,7 +161,7 @@ Flappy Bird and Used many libraries like Pandas, Pygame etc.
     <div className='col-span-6 sm:col-span-12'>
     <Project
     title="MCQ Quiz App"
-    img={project1}
+    img={project6}
     summary="Create the UI page and widget which will display the contents of MCQ"
     link="/"
     github="https://github.com/Sidharthkrsharma/MCQ-App.git"
