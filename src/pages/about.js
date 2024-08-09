@@ -1,14 +1,13 @@
 import AnimatedText from '@/components/AnimatedText'
-import Layout from '@/components/Layout'
-import Image from 'next/image'
-import React, { useRef, useEffect } from 'react'
-import profilePic from "../../public/images/profile/profile-pic.jpg"
-import Head from 'next/head'
-import { useInView, useMotionValue, useSpring } from 'framer-motion'
-import Skills from '@/components/Skills'
 import Education from '@/components/Education'
-import Experience from '@/components/Experience'
+import Layout from '@/components/Layout'
+import Skills from '@/components/Skills'
 import TransitionEffect from '@/components/TransitionEffect'
+import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Head from 'next/head'
+import Image from 'next/image'
+import { useEffect, useRef } from 'react'
+import profilePic from "../../public/images/profile/profile-pic.jpg"
 
 
 
@@ -52,7 +51,7 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
             <p className='font-medium'>
-            - Hi, I am Sidharth, Passionate Web Developer and Machine Learning Enthusiast with over 1 years of experience in creating and
+            - Hi, I am Sidharth, Passionate Web Developer and Machine Learning Enthusiast with over 2 years of hand-on experience in creating and
 deploying interactive full-stack web applications and machine learning models. Eager to use my skills to help
 solve real-world problems in a professional environment. Focused on exceeding profitability targets through
 skilled management of available personnel and inventory resources. Expert in identifying and capitalizing on

@@ -8,6 +8,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import project4 from "../../public/images/projects/png2jpg/brain.jpg"
 import project3 from "../../public/images/projects/png2jpg/flappy bird.jpg"
+import project7 from "../../public/images/projects/png2jpg/foodomania.jpg"
 import project6 from "../../public/images/projects/png2jpg/mcq.jpg"
 import project5 from "../../public/images/projects/png2jpg/mi.jpg"
 import project2 from "../../public/images/projects/png2jpg/netflix.jpg"
@@ -110,6 +111,8 @@ where user upload  leaf image and help to predict the disease with help of CNN a
     type="Featured Project"
     />
     </div>
+
+
     <div className='col-span-6 sm:col-span-12'>
     <Project
     title="Netflix Clone"
@@ -165,6 +168,17 @@ the Model in 10 Epochs for Better Understanding."
     summary="Create the UI page and widget which will display the contents of MCQ"
     link="/"
     github="https://github.com/Sidharthkrsharma/MCQ-App.git"
+    type="Featured Project"
+    />
+    </div>
+    
+    <div className='col-span-12'>
+    <FeaturedProject 
+    title="FoodoMania"
+    img={project7}
+    summary="Foodomania is a dynamic web application designed to help users explore and discover a variety of recipes. The platform provides an intuitive user interface where visitors can browse, search, and filter recipes based on categories, ingredients, or cuisine types. Built with a focus on user experience, Foodomania is optimized for both desktop and mobile use, ensuring accessibility across different devices."
+    link="https://foodomania-frontend.onrender.com"
+    github="https://github.com/Sidharthkrsharma/FoodoMania"
     type="Featured Project"
     />
     </div>
