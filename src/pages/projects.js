@@ -9,10 +9,13 @@ import Link from 'next/link'
 import project4 from "../../public/images/projects/png2jpg/brain.jpg"
 import project3 from "../../public/images/projects/png2jpg/flappy bird.jpg"
 import project7 from "../../public/images/projects/png2jpg/foodomania.jpg"
+import project8 from "../../public/images/projects/png2jpg/jarvis.jpg"
+import project9 from "../../public/images/projects/png2jpg/Loop.jpg"
 import project6 from "../../public/images/projects/png2jpg/mcq.jpg"
 import project5 from "../../public/images/projects/png2jpg/mi.jpg"
 import project2 from "../../public/images/projects/png2jpg/netflix.jpg"
 import project1 from "../../public/images/projects/png2jpg/tomato.jpg"
+
 
 
 
@@ -179,6 +182,28 @@ the Model in 10 Epochs for Better Understanding."
     summary="Foodomania is a dynamic web application designed to help users explore and discover a variety of recipes. The platform provides an intuitive user interface where visitors can browse, search, and filter recipes based on categories, ingredients, or cuisine types. Built with a focus on user experience, Foodomania is optimized for both desktop and mobile use, ensuring accessibility across different devices."
     link="https://foodomania-frontend.onrender.com"
     github="https://github.com/Sidharthkrsharma/FoodoMania"
+    type="Featured Project"
+    />
+    </div>
+
+<div className='col-span-6 sm:col-span-12'>
+    <Project
+    title="Jarvis"
+    img={project8}
+    summary="It is Virtual Assistant JARVIS used JavaScript to build some features to catch the command while speaking to users"
+    link="https://play-with-jarvis.vercel.app"
+    github="https://github.com/Sidharthkrsharma/Play-With-Jarvis"
+    type="Featured Project"
+    />
+    </div>
+
+<div className='col-span-6 sm:col-span-12'>
+    <Project
+    title="MCQ Quiz App"
+    img={project9}
+    summary="Created a Microsoft Loop Clone and used Clark Authentication and integrated with Gemini Ai  "
+    link="https://microsoft-loop-clone-sepia.vercel.app/"
+    github="https://github.com/Sidharthkrsharma/Microsoft-Loop-Clone"
     type="Featured Project"
     />
     </div>
