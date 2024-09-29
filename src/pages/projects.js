@@ -199,7 +199,7 @@ the Model in 10 Epochs for Better Understanding."
 
 <div className='col-span-6 sm:col-span-12'>
     <Project
-    title="MCQ Quiz App"
+    title="Microsoft Loop Clone"
     img={project9}
     summary="Created a Microsoft Loop Clone and used Clark Authentication and integrated with Gemini Ai  "
     link="https://microsoft-loop-clone-sepia.vercel.app/"
@@ -207,8 +207,6 @@ the Model in 10 Epochs for Better Understanding."
     type="Featured Project"
     />
     </div>
-
-
     </div>
   </Layout>
 </main>
