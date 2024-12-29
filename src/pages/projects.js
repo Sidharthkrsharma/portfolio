@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import project10 from "../../public/images/projects/png2jpg/bg_removal.jpg"
 import project4 from "../../public/images/projects/png2jpg/brain.jpg"
 import project3 from "../../public/images/projects/png2jpg/flappy bird.jpg"
 import project7 from "../../public/images/projects/png2jpg/foodomania.jpg"
@@ -207,6 +208,18 @@ the Model in 10 Epochs for Better Understanding."
     type="Featured Project"
     />
     </div>
+
+    <div className='col-span-12'>
+    <FeaturedProject 
+    title="BG Removal"
+    img={project10}
+    summary="Web application designed to help users to upload images and remove or replace the background using image processing techniques, often leveraging AI models"
+    link="https://bgremoval-alpha.vercel.app"
+    github="https://github.com/Sidharthkrsharma/BG_Removal"
+    type="Featured Project"
+    />
+    </div>
+
     </div>
   </Layout>
 </main>
