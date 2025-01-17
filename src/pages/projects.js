@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import project11 from "../../public/images/projects/png2jpg/Ai-Calculator.jpg"
 import project10 from "../../public/images/projects/png2jpg/bg_removal.jpg"
 import project4 from "../../public/images/projects/png2jpg/brain.jpg"
 import project3 from "../../public/images/projects/png2jpg/flappy bird.jpg"
@@ -117,19 +118,19 @@ where user upload  leaf image and help to predict the disease with help of CNN a
     </div>
 
 
-    <div className='col-span-6 sm:col-span-12'>
-    <Project
+    <div className='col-span-6 '>
+    <FeaturedProject
     title="Netflix Clone"
     img={project2}
     summary="Used many NPM react packages and libraries to build attractive user interface"
-    link="https://netflix-clone-two-lake-16.vercel.app/"
+    link="https://netflix-clone-two-lake-16.vercel.app"
     github="https://github.com/Sidharthkrsharma/Netflix-Clone.git"
     type="Featured Project"
     />
 
     </div>
-    <div className='col-span-6 sm:col-span-12'>
-    <Project
+    <div className='col-span-6 '>
+    <FeaturedProject
     title="Flappy Bird Ai"
     img={project3}
     summary="The results of training an AI using NEAT (NeuroEvolution of Augmenting Topologies) to play 
@@ -143,7 +144,7 @@ Flappy Bird and Used many libraries like Pandas, Pygame etc.
     </div>
  
     <div className='col-span-12'>
-    <FeaturedProject 
+    <FeaturedProject
     title="Brain-Tumor Classification using CNN"
     img={project4}
     summary="Predict the Tumor via MRI and Created web pages with help Flask framework to build attractive user and used many library for Train and Test 
@@ -154,8 +155,8 @@ the Model in 10 Epochs for Better Understanding."
     />
     </div>
 
-    <div className='col-span-6 sm:col-span-12'>
-      <Project
+    <div className='col-span-6 '>
+      <FeaturedProject
     title="MI store clone"
     img={project5}
     summary="clone of mi store website"
@@ -165,8 +166,8 @@ the Model in 10 Epochs for Better Understanding."
     />
     </div>
 
-    <div className='col-span-6 sm:col-span-12'>
-    <Project
+    <div className='col-span-6 '>
+    <FeaturedProject
     title="MCQ Quiz App"
     img={project6}
     summary="Create the UI page and widget which will display the contents of MCQ"
@@ -187,8 +188,8 @@ the Model in 10 Epochs for Better Understanding."
     />
     </div>
 
-<div className='col-span-6 sm:col-span-12'>
-    <Project
+<div className='col-span-12 '>
+    <FeaturedProject
     title="Jarvis"
     img={project8}
     summary="It is Virtual Assistant JARVIS used JavaScript to build some features to catch the command while speaking to users"
@@ -198,8 +199,8 @@ the Model in 10 Epochs for Better Understanding."
     />
     </div>
 
-<div className='col-span-6 sm:col-span-12'>
-    <Project
+<div className='col-span-12'>
+    <FeaturedProject
     title="Microsoft Loop Clone"
     img={project9}
     summary="Created a Microsoft Loop Clone and used Clark Authentication and integrated with Gemini Ai  "
@@ -216,6 +217,17 @@ the Model in 10 Epochs for Better Understanding."
     summary="Web application designed to help users to upload images and remove or replace the background using image processing techniques, often leveraging AI models"
     link="https://bgremoval-alpha.vercel.app"
     github="https://github.com/Sidharthkrsharma/BG_Removal"
+    type="Featured Project"
+    />
+    </div>
+
+    <div className='col-span-12'>
+    <FeaturedProject
+    title="Ai Calculator"
+    img={project11}
+    summary="Created AI-Powered Calculator, inspired by the innovative iPad Math Notes/Calculator application that uses AI to recognize handwritten math equations and solve them"
+    link="https://ai-calculator-1w44.vercel.app"
+    github="https://github.com/Sidharthkrsharma/Ai-Calculator"
     type="Featured Project"
     />
     </div>
