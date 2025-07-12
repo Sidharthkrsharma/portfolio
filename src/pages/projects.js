@@ -9,8 +9,10 @@ import Link from 'next/link'
 import project11 from "../../public/images/projects/png2jpg/Ai-Calculator.jpg"
 import project10 from "../../public/images/projects/png2jpg/bg_removal.jpg"
 import project4 from "../../public/images/projects/png2jpg/brain.jpg"
+import project13 from "../../public/images/projects/png2jpg/deepseek.jpg"
 import project3 from "../../public/images/projects/png2jpg/flappy bird.jpg"
 import project7 from "../../public/images/projects/png2jpg/foodomania.jpg"
+import project12 from "../../public/images/projects/png2jpg/iphone.jpg"
 import project8 from "../../public/images/projects/png2jpg/jarvis.jpg"
 import project9 from "../../public/images/projects/png2jpg/Loop.jpg"
 import project6 from "../../public/images/projects/png2jpg/mcq.jpg"
@@ -27,10 +29,9 @@ const FeaturedProject = ({type, title, summary, img, link, github}) =>{
 
   return (
     <article className='w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
-       <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl 
-       xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem' />
+      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem' />
       <Link href={link} target='_blank' className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
-        <FramerImage src={img} alt={title} className='w-full h-auto'  whileHover={{scale:1.05}} transition={{duration:0.2}}
+        <FramerImage src={img} alt={title} className='w-full h-auto'  whileHover={{scale:1.05,rotateX: 5,rotateY: -5,transition:{type:"spring",stiffness:300,damping:15}}} transition={{duration:0.2}}
           priority
           sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw'
         />
@@ -62,7 +63,7 @@ const Project = ({title, type, img, link, github}) =>{
     <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4'>
         <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]' />
       <Link href={link} target='_blank' className='w-1/2 cursor-pointer overflow-hidden rounded-lg'>
-        <FramerImage src={img} alt={title} className='w-full h-auto' whileHover={{scale:1.05}} transition={{duration:0.2}}/>
+        <FramerImage src={img} alt={title} className='w-full h-auto' whileHover={{scale:1.05,rotateX: 5,rotateY: -5,transition:{type:"spring",stiffness:300,damping:15}}} transition={{duration:0.2}}/>
       </Link>
 
       <div className='w-full flex flex-col items-start justify-between pl-6'>
@@ -157,24 +158,23 @@ the Model in 10 Epochs for Better Understanding."
 
     <div className='col-span-6 '>
       <FeaturedProject
-    title="MI store clone"
+    title="MI Store Clone"
     img={project5}
-    summary="clone of mi store website"
+    summary="Clone of MI Store website"
     link="https://mi-store-clone-psi.vercel.app/"
     github="https://github.com/Sidharthkrsharma/mi-store-clone.git"
     type="Featured Project"
     />
     </div>
 
-    <div className='col-span-6 '>
+    <div className='col-span-6'>
     <FeaturedProject
-    title="MCQ Quiz App"
-    img={project6}
-    summary="Create the UI page and widget which will display the contents of MCQ"
-    link="/"
-    github="https://github.com/Sidharthkrsharma/MCQ-App.git"
-    type="Featured Project"
-    />
+    title="IPhone 15 Clone"
+    img={project12}
+    summary="Clone of iPhone 15 HomePage Using 3D.js "
+    link="https://iphone-15-homepage.vercel.app/"
+    github="https://github.com/Sidharthkrsharma/Iphone_15-Homepage"
+    type="Featured Project"/>
     </div>
     
     <div className='col-span-12'>
@@ -188,7 +188,7 @@ the Model in 10 Epochs for Better Understanding."
     />
     </div>
 
-<div className='col-span-12 '>
+<div className='col-span-6 '>
     <FeaturedProject
     title="Jarvis"
     img={project8}
@@ -199,7 +199,7 @@ the Model in 10 Epochs for Better Understanding."
     />
     </div>
 
-<div className='col-span-12'>
+<div className='col-span-6'>
     <FeaturedProject
     title="Microsoft Loop Clone"
     img={project9}
@@ -229,6 +229,28 @@ the Model in 10 Epochs for Better Understanding."
     link="https://ai-calculator-1w44.vercel.app"
     github="https://github.com/Sidharthkrsharma/Ai-Calculator"
     type="Featured Project"
+    />
+    </div>
+
+    <div className='col-span-6 '>
+    <Project
+    title="MCQ Quiz App"
+    img={project6}
+    summary="Create the UI page and widget which will display the contents of MCQ"
+    link="/"
+    github="https://github.com/Sidharthkrsharma/MCQ-App.git"
+    type="Project"
+    />
+    </div>
+
+        <div className='col-span-6 '>
+    <Project
+    title="DeepSeek AI Clone"
+    img={project13}
+    summary="Create Clone of DeepSeek AI"
+    link="https://deepseek-sidharthkrsharmas-projects.vercel.app/"
+    github="https://github.com/Sidharthkrsharma/deepseek"
+    type="Project"
     />
     </div>
 
