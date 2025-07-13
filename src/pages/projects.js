@@ -112,7 +112,7 @@ const projects = () => {
     summary="Used many NPM react packages and library for easily integrate with Deep learning model for Classification of 
 Diseases and MongoDB and Cloudinary for database and storing image and result used for building user interfaces website 
 where user upload  leaf image and help to predict the disease with help of CNN and Deep learning model"
-    link="/"
+    link="https://github.com/Sidharthkrsharma/Tomato-leaf-classification.git"
     github="https://github.com/Sidharthkrsharma/Tomato-leaf-classification.git"
     type="Featured Project"
     />
@@ -137,7 +137,7 @@ where user upload  leaf image and help to predict the disease with help of CNN a
     summary="The results of training an AI using NEAT (NeuroEvolution of Augmenting Topologies) to play 
 Flappy Bird and Used many libraries like Pandas, Pygame etc.
 "
-    link="/"
+    link="https://github.com/Sidharthkrsharma/flappy-bird-Ai.git"
     github="https://github.com/Sidharthkrsharma/flappy-bird-Ai.git"
     type="Featured Project"
     />
@@ -150,7 +150,7 @@ Flappy Bird and Used many libraries like Pandas, Pygame etc.
     img={project4}
     summary="Predict the Tumor via MRI and Created web pages with help Flask framework to build attractive user and used many library for Train and Test 
 the Model in 10 Epochs for Better Understanding."
-    link="/"
+    link="https://github.com/Sidharthkrsharma/BrainTumor_Classification_using-CNN.git"
     github="https://github.com/Sidharthkrsharma/BrainTumor_Classification_using-CNN.git"
     type="Featured Project"
     />
@@ -237,7 +237,7 @@ the Model in 10 Epochs for Better Understanding."
     title="MCQ Quiz App"
     img={project6}
     summary="Create the UI page and widget which will display the contents of MCQ"
-    link="/"
+    link="https://github.com/Sidharthkrsharma/MCQ-App.git"
     github="https://github.com/Sidharthkrsharma/MCQ-App.git"
     type="Project"
     />
